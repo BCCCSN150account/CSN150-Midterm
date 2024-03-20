@@ -1,7 +1,7 @@
 # Cybersecurity 150 Lab
 
 ## Name of Project
-ESP32 Amazing Cyber Program
+ESP32 Amazing Cyber Program with Whatsapp
 
 ## Purpose
 Create an ESP32 project using the ESP32CAM.
@@ -22,10 +22,15 @@ Create an ESP32 project using the ESP32CAM.
 
 
 ## Steps I followed
-1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
+1. I went to the Randomnerd tutorial website and selected the ESP32: Send Messages to WhatsApp guide.
+2. Next I added +34 621 331 709 which is the callmebot api number to my Whatsapp
+3. I installed the URLencode library on the Arduno application.
+4. I used the code provided by randomnerdtutorial to process with sending the messages.
+5. I placed the ssid and wi-fi password for my hotspot into the code.
+6. Finally I placed the API code into my code and was able to receive the message.
 
 ## Problems
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
+During step 2 I attempted to send the message while using the Bronx community college wifi and the message was not being sent. I fix this issue by using my cellphones wifi Hotspot and then I was able to recevie the message from the callmebot with the API that I would need later on and I was able to proceed with the folowing steps.
 
 Example
 1. Arduino code will not load on ESP32 Cam.
